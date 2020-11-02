@@ -1,0 +1,66 @@
+#ship h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+#ship h1 .top {
+  font-family: "AirbnbCereal Light";
+  padding-top: 2rem;
+  display: block;
+  font-style: italic;
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.8rem;
+}
+
+#ship h1 .middle {
+  display: block;
+  background-color: white;
+  color: var(--accent);
+  font-family: "AirbnbCereal Black";
+  font-size: 5rem;
+  text-align: center;
+  line-height: 4.1rem;
+  text-transform: uppercase;
+}
+
+#ship h1 .bottom {
+  display: block;
+  text-align: right;
+  margin-right: 2rem;
+  line-height: 1.8rem;
+  font-family: "AirbnbCereal Book";
+}
+
+#ship .ufo {
+  display: block;
+  margin: 2.5rem auto;
+  width: 50%;
+}
+
+#ship h2 {
+  font-family: "AirbnbCereal Book";
+  margin: 0;
+  padding: 0;
+  font-size: 2.6rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  transform: rotate(-5deg);
+}
+
+#ship h2 .caret {
+  transform: rotate(-15deg);
+  margin-bottom: 1rem;
+}
+
+#ship h2 .caret .text {
+  font-size: 1.8rem;
+  margin-left: -7rem;
+}
+
+#ship h2 .caret .symbol {
+  font-size: 1rem;
+  margin-left: -8rem;
+}

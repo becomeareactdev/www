@@ -1,0 +1,30 @@
+section.slide {
+  padding: 4rem 1rem;
+}
+
+section.slide:first-of-type:before {
+  padding: 1rem;
+  content: "";
+}
+
+section.slide:last-of-type:after {
+  padding: 1rem;
+  content: "";
+}
+
+section.slide:before {
+  content: "\025BF";
+  font-size: 2rem;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: rotate(180deg);
+}
+
+section.slide:after {
+  content: "\025BF";
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
