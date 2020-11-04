@@ -51,6 +51,10 @@ section {
   justify-content: center;
 }
 
+section div {
+  margin: 0 2rem;
+}
+
 .dk-bg {
   background-color: var(--dk-bg);
   color: white;
@@ -64,6 +68,14 @@ section {
 
 .black {
   font-family: "AirbnbCereal Black";
+}
+
+.book {
+  font-family: "AirbnbCereal Book";
+}
+
+.light {
+  font-family: "AirbnbCereal Light";
 }
 
 p {
@@ -111,4 +123,26 @@ p {
   line-height: 1.8rem;
   margin-bottom: 2rem;
   letter-spacing: 0.03rem;
+}
+
+form {
+  padding: 1rem;
+}
+
+input[type="email"],
+button {
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: 1px solid #6eb8fd;
+  color: #7ebdf7;
+}
+
+button {
+  background-color: #7ebdf7;
+  color: white;
+  font-size: 1rem;
 }

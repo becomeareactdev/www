@@ -2,7 +2,13 @@ import React from "react"
 import ConvertKitForm from "convertkit-react"
 import "./styles.css"
 
-export default function MailingList1({ className, submitText, text, heading }) {
+export default function MailingList1({
+  className,
+  submitText,
+  emailPlaceholder,
+  text,
+  heading,
+}) {
   return (
     <section id="mailing-list" className={`slide ${className}`}>
       <div>
@@ -11,6 +17,7 @@ export default function MailingList1({ className, submitText, text, heading }) {
         <ConvertKitForm
           formId={1773437}
           format="inline"
+          emailPlaceholder={emailPlaceholder}
           submitText={submitText}
           hideName={true}
           newTab={true}
