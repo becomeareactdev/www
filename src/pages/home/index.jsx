@@ -8,6 +8,7 @@ import MailingList from "./mailing-list"
 import EaPricing from "./ea-pricing"
 import ProgPricing from "./prog-pricing"
 import CourseOutline from "./course-outline"
+import Mark from "./mark"
 
 import "./styles.css"
 
@@ -32,6 +33,7 @@ export default function Home() {
         heading="OK, Let’s get started"
         text="Sign up for the mailing list and get updates so you don’t miss the launch pricing!"
       />
+      <Mark className="dk-bg" />
     </Layout>
   )
 }

@@ -6,11 +6,9 @@
 
 #ship h1 .top {
   font-family: "AirbnbCereal Light";
-  padding-top: 2rem;
   display: block;
   font-style: italic;
   text-align: left;
-  margin-left: 2rem;
   line-height: 1.8rem;
 }
 
@@ -28,14 +26,13 @@
 #ship h1 .bottom {
   display: block;
   text-align: right;
-  margin-right: 2rem;
   line-height: 1.8rem;
   font-family: "AirbnbCereal Book";
 }
 
 #ship .ufo {
   display: block;
-  margin: 2.5rem auto;
+  margin: 2rem auto;
   width: 50%;
 }
 

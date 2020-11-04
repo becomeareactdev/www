@@ -1,11 +1,10 @@
 :root {
   font-size: 16px;
-
   --dk-bg: #0e182a;
   --md-bg: #2a67d4;
-  --lt-bg: #2588e4;
-
-  --accent: #7ebdf7;
+  --lt-bg: #4982e6;
+  --grey-bg: #2a2a2e;
+  --accent: #3794e9;
 }
 
 html,
@@ -17,6 +16,7 @@ body {
   font-family: "AirbnbCereal Light";
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
+  background-color: var(--grey-bg);
 }
 
 * {
@@ -58,7 +58,7 @@ section {
 
 .md-bg {
   background-color: var(--md-bg);
-  background: linear-gradient(0deg, var(--md-bg) 0%, var(--lt-bg) 100%);
+  background: linear-gradient(0deg, var(--lt-bg) 0%, var(--md-bg) 100%);
   color: white;
 }
 
@@ -104,4 +104,11 @@ h1,
 h2,
 p {
   margin: 1rem 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.03rem;
 }
