@@ -4,7 +4,8 @@ export default function CourseOutline2() {
   return (
     <section className={`slide md-bg`}>
       <div>
-        <h2>Course Outine (continued)</h2>
+        <h2>The Course Outine </h2>
+        <h3>(continued)</h3>
         <ol>
           <li>
             React State

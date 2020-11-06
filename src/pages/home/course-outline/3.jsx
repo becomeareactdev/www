@@ -4,7 +4,8 @@ export default function CourseOutline1({ className }) {
   return (
     <section className={`slide dk-bg`}>
       <div>
-        <h2>Course Outine (continued)</h2>
+        <h2>The Course Outine </h2>
+        <h3>(continued)</h3>
         <ol>
           <li>
             Example Components

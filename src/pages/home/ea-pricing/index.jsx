@@ -15,7 +15,7 @@ export default function EaPricing({ className }) {
           buy it early, you will be getting it a a great discount.
         </p>
         <p>
-          At launch the entire course will be available for $75 USD for the full
+          At launch the entire course will be available for $50 USD for the full
           package for lifetime access, including all future updates!
         </p>
       </div>

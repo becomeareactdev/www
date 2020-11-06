@@ -37,7 +37,7 @@ export default function Home() {
       />
       <Mark />
       <MailingList
-        className="md-bg"
+        className="dk-bg"
         emailPlaceholder="Where should I send your discount?"
         submitText="I am ready to level-up"
         heading="Take your first step!"
